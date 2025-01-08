@@ -60,7 +60,7 @@ Created by [@ammaar](https://x.com/ammaar)
 
 5. Open your browser and navigate to:
    ```
-   http://localhost:3000
+   http://localhost:3300
    ```
 
 ## Environment Variables
