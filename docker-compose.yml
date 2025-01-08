@@ -1,0 +1,11 @@
+services:
+  app:
+    image: gemini-search:1.0-bgou
+    ports:
+      - "3300:3300"
+    volumes:
+      - ./.env:/app/.env:ro
+    environment:
+      - NODE_ENV=production
+      - PORT=3300
+    restart: unless-stopped
